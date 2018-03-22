@@ -5,6 +5,6 @@
 */
 module.exports = (name = 'world', context, callback) => {
 
-  callback(null, `yelloooo steve`);
+  callback(null, `yelloooo steveo`);
 
 };
