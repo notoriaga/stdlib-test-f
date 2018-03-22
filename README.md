@@ -1,3 +1,3 @@
 # stdlib-test-f
 
-[![Deploy](https://deploy.lib.id/github@dev/button/)](https://deploy.lib.id/github@dev/ref/)
+[![Deploy](http://f.jacobb.us/deploy/github@dev/button/)](http://f.jacobb.us/deploy/github@dev/ref/)
