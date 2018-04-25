@@ -1,0 +1,23 @@
+{
+  "name": "@steve/stdlib-test-f",
+  "version": "0.0.0",
+  "publish": true,
+  "description": "",
+  "env": [
+    {
+      "name": "STDLIB_TOKEN",
+      "defaultValue": "",
+      "description": ""
+    },
+    {
+      "name": "VERIFY_TOKEN",
+      "defaultValue": "",
+      "description": ""
+    },
+    {
+      "name": "PAGE_ACCESS_TOKEN",
+      "defaultValue": "",
+      "description": ""
+    }
+  ]
+}
