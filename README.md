@@ -1,3 +1,3 @@
 # stdlib-test-f
 
-[![Open in Code.xyz](https://code.xyz/button/)](https://code.xyz/)
+[![Open in Code.xyz](https://code.xyz/button/?png)](https://code.xyz/)
