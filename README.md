@@ -1,3 +1,3 @@
 # stdlib-test-f
 
-[![Deploy](https://code.xyz/button/?yes=no)](https://code.xyz/)
+[![Open in Code.xyz](https://code.xyz/button/)](https://code.xyz/)
