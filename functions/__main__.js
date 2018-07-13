@@ -1,10 +1,6 @@
 /**
-* A basic Hello World function
-* @param {string} name Who you're saying hello to
-* @returns {string}
+* A simple "hello world" function
 */
-module.exports = (name = 'world', context, callback) => {
-
-  callback(null, `yelloooo steveo aagagagag`);
-
+module.exports = async (name = 'world') => {
+  return `Hello ${name}, I built this API with StdLib and Code xyz!`;
 };

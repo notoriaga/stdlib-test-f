@@ -1,22 +1,10 @@
 {
-  "name": "stdlib-test-f",
+  "name": "steve/hello-world",
   "version": "0.0.0",
-  "description": "",
-  "author": "steve <steven@stdlib.com>",
-  "main": "functions/__main__.js",
-  "dependencies": {
-    "async": "^2.6.0",
-    "request": "^2.85.0"
-  },
-  "private": true,
+  "author": "steve",
   "stdlib": {
-    "build": "faaslang",
-    "name": "steve/stdlib-test-f",
-    "timeout": 10000,
+    "name": "steve/hello-world",
     "publish": true,
-    "personalize": {
-      "keys": [],
-      "user": []
-    }
+    "timeout": 10000
   }
 }
