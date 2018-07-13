@@ -6,5 +6,3 @@ This is the README for you API. It is intended to guide other developers on
 [Standard Library](https://stdlib.com/) documentation.
 
 You can include an **Open in Code.xyz** button for GitHub, as displayed above.
-
-HELLO
