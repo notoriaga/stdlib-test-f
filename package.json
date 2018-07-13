@@ -1,9 +1,9 @@
 {
-  "name": "steve/hello-world",
+  "name": "steve/anotherone",
   "version": "0.0.0",
   "author": "steve",
   "stdlib": {
-    "name": "steve/hello-world",
+    "name": "steve/anotherone",
     "publish": true,
     "timeout": 10000
   }
