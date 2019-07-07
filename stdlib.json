@@ -1,0 +1,9 @@
+
+{
+    "build": "faaslang",
+    "name": "notoriaga/stdlib-test-f",
+    "timeout": 20000,  
+    "events": [
+      {"stripe.charge.succeeded": "events/stripe/charge/succeeded.js"}
+    ]
+}
