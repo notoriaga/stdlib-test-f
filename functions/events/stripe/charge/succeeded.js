@@ -11,20 +11,7 @@ module.exports = async (event) => {
   let workflow = {};
   
   // [Workflow Step 1]
-  
-  console.log(`Running slack.conversations[@0.0.5].info()...`);
-  
-  workflow.channel = await lib.slack.conversations['@0.0.5'].info({
-    id: `${event.event.channel}`
-  });
-  
-  // [Workflow Step 2]
-  
-  console.log(`Running slack.users[@0.3.20].retrieve()...`);
-  
-  workflow.user = await lib.slack.users['@0.3.20'].retrieve({
-    user: `${event.event.user}`
-  });
+ 
   
   // [Workflow Step 3]
   
