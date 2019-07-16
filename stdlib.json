@@ -1,11 +1,26 @@
-
 {
-    "build": "faaslang",
-    "name": "notoriaga/stdlib-test-f",
-    "timeout": 20000,  
-    "events": [
-      {"stripe.charge.succeeded": "events/stripe/charge/succeeded.js"},
-      {"stripe.charge.failed": "events/stripe/charge/failed.js"},
-      {"slack.command": "events/slack/command/test.js"}
-    ]
+  "build": "faaslang",
+  "name": "notoriaga/stdlib-test-f",
+  "timeout": 20000,
+  "events": [
+    {
+      "stripe.charge.succeeded": {
+        "filename": "events/stripe/charge/succeeded.js"
+      }
+    },
+    {
+      "stripe.charge.failed": {
+        "filename": "events/stripe/charge/failed.js",
+        "subtype": "hello"
+      }
+    },
+    {
+      "slack.command": {
+        "filename": "events/stripe/charge/failed.js",
+        "subtype": {
+          "command": "hello"
+        }
+      }
+    }
+  ]
 }
