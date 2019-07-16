@@ -10,8 +10,7 @@
     },
     {
       "stripe.charge.failed": {
-        "filename": "events/stripe/charge/failed.js",
-        "subtype": "hello"
+        "filename": "events/stripe/charge/failed.js"
       }
     },
     {
