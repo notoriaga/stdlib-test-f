@@ -1,25 +1,20 @@
-const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN, host: 'api.jacobb.us', port: 80});
+const lib = require('lib')({
+	token: process.env.STDLIB_SECRET_TOKEN,
+	host: 'api.jacobb.us',
+	port: 80
+});
+
 /**
-* An HTTP endpoint that acts as a webhook for Slack message.mpim event
-* @param {object} event Slack message.mpim event body (raw)
-* @returns {object} workflow The result of your workflow steps
+* @param {object} event
+* @returns {object} workflow
 */
-module.exports = async (event) => {
+module.exports = async event => {
+	let workflow = {};
 
-  // Prepare workflow object to store API responses
-  
-  let workflow = {};
-  
-  // [Workflow Step 1]
- 
-  
-  // [Workflow Step 3]
-  
-  console.log(`Running enrichments.company[@0.0.2].find()...`);
-  
-  workflow.company = await lib.enrichments.company['@0.0.2'].find({
-    domain: `stdlib.com`
-  });
+	workflow.echo = await lib.slack.channels.messages.create({
+		channel: 'general',
+		text: event.text
+	});
 
-  return workflow;
+	return workflow;
 };
