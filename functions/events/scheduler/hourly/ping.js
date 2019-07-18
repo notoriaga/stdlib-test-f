@@ -5,10 +5,9 @@ const lib = require('lib')({
 });
 
 /**
-* @param {object} event Slack message.mpim event body (raw)
 * @returns {object} workflow The result of your workflow steps
 */
-module.exports = async event => {
+module.exports = async () => {
 	let workflow = {};
 
 	workflow.ping = await lib.slack.channels.messages.create({
