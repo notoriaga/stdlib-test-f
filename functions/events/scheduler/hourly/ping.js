@@ -12,7 +12,7 @@ module.exports = async event => {
 	let workflow = {};
 
 	workflow.ping = await lib.slack.channels.messages.create({
-		channel: 'general',
+		channel: '#general',
 		text: 'PING'
 	});
 
