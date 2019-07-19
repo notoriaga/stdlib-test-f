@@ -1,4 +1,5 @@
 {
+  "description": "Send meaningless messages to #general.",
   "build": "faaslang",
   "name": "notoriaga/stdlib-test-f",
   "timeout": 20000,
