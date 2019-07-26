@@ -1,3 +1,3 @@
 # stdlib-test-f
 
-[![Open in Code.xyz](https://code.xyz/button/?png)](https://build-staging.stdlib.com/?github=true)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
