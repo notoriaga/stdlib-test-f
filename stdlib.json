@@ -18,6 +18,14 @@
           "command": "echo"
         }
       }
+    },
+    {
+      "slack.command": {
+        "filename": "events/slack/command/another.js",
+        "subtype": {
+          "command": "another"
+        }
+      }
     }
   ]
 }
