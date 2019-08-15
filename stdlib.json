@@ -4,10 +4,10 @@
   "timeout": 20000,
   "events": [
     {
-      "scheduler.hourly": {
+      "slack.message_action": {
         "filename": "events/scheduler/hourly/ping.js",
         "subtype": {
-          "offset": "0 minutes"
+          "callback_id": "acallbackid"
         }
       }
     },
