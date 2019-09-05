@@ -9,11 +9,5 @@ const lib = require('lib')({
 */
 module.exports = async () => {
 	let workflow = {};
-
-	workflow.ping = await lib.slack.channels.messages.create({
-		channel: '#general',
-		text: 'PING'
-	});
-
 	return workflow;
 };
