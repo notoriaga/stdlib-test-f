@@ -1,0 +1,19 @@
+{
+  "env": [
+    {
+      "name": "ENV_VAR_1",
+      "defaultValue": "",
+      "description": ""
+    },
+    {
+      "name": "ENV_VAR_1",
+      "defaultValue": "",
+      "description": "A description"
+    },
+    {
+      "name": "ENV_VAR_1",
+      "defaultValue": "A_DEFAULT_VALUE",
+      "description": "Another description"
+    }
+  ]
+}
