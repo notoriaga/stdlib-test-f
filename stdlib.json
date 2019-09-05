@@ -3,5 +3,22 @@
   "build": "faaslang",
   "name": "notoriaga/stdlib-test-f",
   "timeout": 20000,
-  "connector": true
+  "connector": true,
+  "env": [
+    {
+      "name": "ENV_VAR_1",
+      "defaultValue": "",
+      "description": ""
+    },
+    {
+      "name": "ENV_VAR_2",
+      "defaultValue": "",
+      "description": "A description"
+    },
+    {
+      "name": "ENV_VAR_3",
+      "defaultValue": "A_DEFAULT_VALUE",
+      "description": "Another description"
+    }
+  ]
 }
