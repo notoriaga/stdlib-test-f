@@ -11,10 +11,5 @@ const lib = require('lib')({
 module.exports = async event => {
 	let workflow = {};
 
-	workflow.echo = await lib.slack.channels.messages.create({
-		channel: '#general',
-		text: event.text
-	});
-
 	return workflow;
 };
