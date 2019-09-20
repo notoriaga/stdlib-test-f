@@ -5,7 +5,7 @@
   "events": [
     {
       "slack.message_action": {
-        "filename": "events/scheduler/hourly/ping.js",
+        "filename": "events/scheduler/hourly/ping",
         "subtype": {
           "callback_id": "acallbackid"
         }
@@ -13,7 +13,7 @@
     },
     {
       "slack.command": {
-        "filename": "events/slack/command/echo.js",
+        "filename": "events/slack/command/echo",
         "subtype": {
           "command": "echo"
         }
@@ -21,7 +21,7 @@
     },
     {
       "slack.command": {
-        "filename": "events/slack/command/another.js",
+        "filename": "events/slack/command/another",
         "subtype": {
           "command": "another"
         }
